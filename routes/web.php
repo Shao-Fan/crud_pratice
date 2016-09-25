@@ -15,5 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/a', function () {
-    return view('welcome');
+    return view('abc');
+});
+Route::get('/homepage', function () {
+    return view('homepage');
 });
