@@ -7,7 +7,7 @@ div.container {
     border: 1px solid gray;
 }
 
-header, footer {
+header, footer { 
     padding: 1em;
     color: white;
     background-color: rgb(88,133,191);
