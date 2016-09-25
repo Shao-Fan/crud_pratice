@@ -14,8 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/a', function () {
-    return view('abc');
+Route::get('/messageboard', function () {
+    return view('MessageBoard');
 });
 Route::get('/homepage', function () {
     return view('homepage');
