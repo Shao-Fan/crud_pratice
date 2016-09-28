@@ -17,7 +17,7 @@ Route::get('/', function () {
 Route::get('/a', function () {
     return view('abc');
 });
-Route::get('/homepage', function () {
-    return view('homepage');
-});
-Route::get('/homepage1','MyController@index');
+// Route::get('/homepage', function () {
+//     return view('homepage');
+// });
+Route::get('/homepage','MyController@index');

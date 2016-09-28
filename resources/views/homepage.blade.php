@@ -56,9 +56,10 @@ article {
 </nav>
 
 <article>
-  <h3>{{$str1}}</h3>
-  <p>{{$str2}}</p>
-  <p>{{$str3}}</p>
+  
+  <h3>{{$article->title}}</h3>
+  <p>{{$article->content}}</p>
+
 </article>
 
 <footer>Bill_WEB</footer>
