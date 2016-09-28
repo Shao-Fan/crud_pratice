@@ -17,6 +17,7 @@ class ArticleTableSeeder extends Seeder
             $article = new Article();
             $article->title = 'title'.$index;
             $article->content = 'content'.$index;
+
             $article->save();
         }
     }

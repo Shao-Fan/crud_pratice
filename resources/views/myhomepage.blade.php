@@ -56,9 +56,10 @@ article {
 </nav>
 
 <article>
-  <h3>{{$str}}</h3>
-  <p>{{$str2}}</p>
-  <p>{{$str3}}</p>
+    @foreach ($article_all as $article)
+        <h3>{{$article->title}}</h3>
+        <p>{{$article->content}}</p>
+    @endforeach
 </article>
 
 <footer>Bill_WEB</footer>
