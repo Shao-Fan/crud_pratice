@@ -20,3 +20,4 @@ Route::get('/a', function () {
 Route::get('/homepage', function () {
     return view('homepage');
 });
+Route::get('/homepage1','MyController@index');

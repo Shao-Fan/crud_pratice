@@ -7,7 +7,7 @@ div.container {
     border: 1px solid gray;
 }
 
-header, footer { 
+header, footer {
     padding: 1em;
     color: white;
     background-color: rgb(88,133,191);
@@ -56,9 +56,9 @@ article {
 </nav>
 
 <article>
-  <h3>Hello Everyone</h3>
-  <p>My name is <b>BillJian.</b></p>
-  <p>Welcome come my Website.</p>
+  <h3>{{$str1}}</h3>
+  <p>{{$str2}}</p>
+  <p>{{$str3}}</p>
 </article>
 
 <footer>Bill_WEB</footer>
